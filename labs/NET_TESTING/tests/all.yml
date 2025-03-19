@@ -14,4 +14,9 @@ anta.tests.software:
     - VerifyTerminAttrVersion:
         versions:
         - v1.32.0
+        - v1.35.0
 
+anta.tests.routing:
+    generic:
+        - VerifyRoutingProtocolModel: 
+            model: multi-agent
